@@ -136,6 +136,43 @@ button:hover {
   display: none;
 }
 
+/* Participants section styling */
+.participants-section h5 {
+  margin: 12px 0 8px;
+  font-size: 0.95rem;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.participant-badge {
+  display: inline-block;
+  background: linear-gradient(180deg, #eef3ff, #dde8ff);
+  color: #1a237e;
+  border: 1px solid #c7d2ff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+/* Empty participants note */
+.no-participants {
+  font-style: italic;
+  color: #666;
+  margin: 6px 0;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
